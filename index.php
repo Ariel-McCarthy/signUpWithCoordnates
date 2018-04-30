@@ -75,7 +75,7 @@
                     else
                     {
                         $("#pass").html("Passwords match!");
-                        $("#pass").css("color", "green");
+                        $("#pass").css("color", "navy");
                         
                         dontMatch = true;
                     }
@@ -161,6 +161,7 @@
                 <br><br>
                 <div style="color: white">
                 State: 
+                </div>
                 <select id="state">
                     <option value="">Select One</option>
                     <option value="ca"> California</option>
@@ -168,16 +169,17 @@
                     <option value="tx"> Texas</option>
                     <option value="va"> Virginia</option>
                 </select><br />
+                <div style="color: white">
+                Select a County: </div> <select id="county"></select><br>
                 
-                Select a County: <select id="county"></select><br>
-                
-                Desired Username: <input type="text" id = "username">
+                <div style="color: white">
+                Desired Username: </div> <input type="text" id = "username">
                     <span id="user"></span>
                     <br>
-                
-                Password: <input type="password" id="password1"><br>
-                
-                Type Password Again: <input type="password" id="password2">
+                <div style="color: white">
+                Password: </div> <input type="password" id="password1"><br>
+                <div style="color: white">
+                Type Password Again: </div> <input type="password" id="password2">
                     <span id="pass"></span>
                     <br>
                 </div>
